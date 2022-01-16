@@ -1,0 +1,26 @@
+.main {
+  max-width: 600px;
+  padding: 24px;
+  margin: 40px auto;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.alias {
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 12px;
+  font-weight: 400;
+}
+
+
+@media screen and (min-width: 400px) {
+  .alias {
+    font-size: 20px;
+    margin-left: 12px;
+  }
+}
+
